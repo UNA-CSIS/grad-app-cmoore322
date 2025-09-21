@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Personal Accomplishments</title>
+    <title>Accomplishments</title>
 </head>
 <body>
     <h1>Personal Accomplishments</h1>
@@ -19,3 +19,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </form>
 </body>
 </html>
+
