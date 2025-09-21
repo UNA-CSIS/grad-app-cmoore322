@@ -12,11 +12,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title>Accomplishments</title>
 </head>
 <body>
-    <h1>Personal Accomplishments</h1>
+    <h1>Accomplishments</h1>
     <form method="post" action="confirmation.php">
         <textarea name="accomplishments" rows="10" cols="60" placeholder="Describe your accomplishments..." required></textarea><br><br>
         <input type="submit" value="Next">
     </form>
 </body>
 </html>
+
 
