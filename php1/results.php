@@ -28,10 +28,10 @@ $isAccepted = evaluateApplication($essay, $totalCourses, $chosenCourses);
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Application Results</title>
+    <title>Results</title>
 </head>
 <body>
-    <h1>Application Results</h1>
+    <h1>Results</h1>
     <?php if ($isAccepted): ?>
         <p>Congratulations <?php echo htmlspecialchars($_SESSION['first_name']); ?>, you are accepted for a phone interview!</p>
     <?php else: ?>
@@ -39,3 +39,4 @@ $isAccepted = evaluateApplication($essay, $totalCourses, $chosenCourses);
     <?php endif; ?>
 </body>
 </html>
+
