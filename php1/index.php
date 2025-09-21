@@ -5,10 +5,10 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Graduate School Application</title>
+    <title>Grad School App</title>
 </head>
 <body>
-    <h1>Graduate School Application</h1>
+    <h1>Grad School App</h1>
     <form method="post" action="course.php">
         <label>First Name: </label>
         <input type="text" name="first_name" required><br><br>
@@ -20,3 +20,4 @@ session_start();
     </form>
 </body>
 </html>
+
